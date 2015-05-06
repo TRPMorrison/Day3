@@ -1,21 +1,119 @@
+
+/* LOGO */
+/* HEADER */
 .container {
+	background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/header.jpg);
 	width: 100%;
+	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: blue;
 	font-family: 'Open Sans', Sans-Serif;
+	overflow: hidden;
 }
 
+.container header {
+	text-align: center;
+}
+
+.blog {
+	text-align: left;
+	padding-left: 30px;
+	float: left;
+}
+.about {
+	text-align: right;
+	padding-right: 30px;
+	float: right;
+}
+
+h1 {
+	color: white;
+	font-size: 80pt;
+}
+/* HEADLINE */
 .container2 {
 	width: 500px;
 	margin-left: auto;
-	margin-right: auto;
-	background: yellow;
+	background: orange;
+	font-family: 'Open Sans', Sans-Serif;
 }
 
+/* NAV */
 .container3 {
+	width: 500px;
+	height: 30px;
+	margin-right: auto;
+	background: purple;
+	font-family: 'Open Sans', Sans-Serif;
+}
+nav {
+  display: right;
+  text-align: right;
+  font-size: 24pt;
+ }
+
+a {
+  color: white;
+}
+
+/* WHITE SECTION */
+/* AUTHOR DATE */
+/* PARAGRAPH 1 */
+/* RADICAL */
+/* PARAGRAPH 2 */
+/* ACTION */
+
+.container4 {
 	width: 500px;
 	margin-right: auto;
 	background: gray;
 	font-family: 'Great Vibes', cursive;
 }
+
+
+/* SIDEBAR */
+.sidebar {
+	width: 500px;
+	margin-right: auto;
+	background: gray;
+	font-family: 'Great Vibes', cursive;
+}
+/* SIDEBAR CIRCLE & TEXT */
+/* SIDEBAR IMAGE */
+/* SIDEBAR TEXTS */
+/* LINE */
+/* POPULAR SECTION */
+.container5 {
+	width: 500px;
+	margin-right: auto;
+	background: gray;
+	font-family: 'Great Vibes', cursive;
+}
+/* POPULAR TEXT */
+/* POPULAR IMAGES */
+/* FOOTER */
+.container6 {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background: yellow;
+}
+/* TIY LOGO */
+.container7 {
+	width: 500px;
+	margin-right: auto;
+	background: gray;
+	font-family: 'Great Vibes', cursive;
+}
+/* FOOTER NAV */
+
+.container8 {
+	width: 500px;
+	margin-right: auto;
+	background: gray;
+	font-family: 'Great Vibes', cursive;
+}
+
+
+
+
