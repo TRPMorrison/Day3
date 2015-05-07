@@ -1,11 +1,14 @@
-<<<<<<< HEAD
+
 
 /* LOGO */
 /* HEADER */
+* {
+  border : 1px solid red;
+}
 .container {
 	background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/header.jpg);
 	width: 100%;
-	height: 250px;
+	height: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Open Sans', Sans-Serif;
@@ -66,76 +69,86 @@ h1 {
 /* POPULAR SECTION */
 /* POPULAR TEXT */
 /* POPULAR IMAGES */
-.popular {
-  height: 330px;
-  width: 100%;
-  border-top: 10px solid;
-  border-color: red;
-  margin-left: 0px;
-  padding-top: .5px;
+* {
+  border: solid 1px red;
+}
+
+.wrapper {
+  background-color: white;
+}
+
+.container:after {
+  clear: left;
+  content: "";
+  color: white;
+  display: block;
 }
 
 .box {
-  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-1.jpg);
-  width: 20px;
-  height: 10px;
+  width: 50px;
+  height: 50px;
   float: left;
-  margin-right: 10px;
-  margin-left: 0px;
-}
-.popular2 {
-  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-2.jpg);
-  width: 20px;
-  height: 10px;
-  float: left;
-  margin-right: 10px;
-  margin-left: 295px;
-}
-.popular3 {
-  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-3.jpg);
-  width: 20px;
-  height: 10px;
-  float: left;
-  margin-right: 10px;
-  margin-left: 295px;
-}
-.popular4 {
-  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-4.jpg);
-  width: 20px;
-  height: 10px;
-  float: left;
-  margin-right: 10px;
-  margin-left: 295px;
+  position: relative;
 }
 
-/* FOOTER NAV */
-.footer {
+.box:after {
+  background: blue;
+  position: absolute;
+  ;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .4;
+  content: "";
+}
+
+.box:hover:after {
+  opacity: 0;
+}
+
+.box img {
+  height: 50px;
+  width: 50px;
+}
+
+footer {
   background: #083452;
   width: 100%;
-  height: 80px;
+  height:80px;
   color: white;
-  padding: 30px;
 }
 
-.footer img {
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30pt;
+  font-weight: 400;
+  color: rgb(8, 52, 82);
+  text-align: center;
+}
+
+footer img {
   float: left;
   padding: 10px;
 }
 
-.footer #tiy {
+footer #tiy {
   float: left;
-  display: inline;
+  position: absolute;
 }
 
-.footer #copy {
-  float: left;
-  margin-left: 10px;
+footer #copy {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
 }
 
-.footer #items {
-  float: right;
-  padding-right: 30px;
-  margin-top: 14px;
+footer #items {
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
 }
 
 .not-active {
