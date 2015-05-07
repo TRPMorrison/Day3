@@ -31,88 +31,90 @@ h1 {
 	color: white;
 	font-size: 80pt;
 }
-/* HEADLINE */
-.container2 {
-	width: 500px;
-	margin-left: auto;
-	background: orange;
-	font-family: 'Open Sans', Sans-Serif;
+
+
+/* MIDDLE */
+.middle {
+  background: #ccc;
+  height: 200px;
+  width: 100%;
 }
 
-/* NAV */
-.container3 {
-	width: 500px;
-	height: 30px;
-	margin-right: auto;
-	background: purple;
-	font-family: 'Open Sans', Sans-Serif;
-}
-nav {
-  display: right;
-  text-align: right;
-  font-size: 24pt;
- }
-
-a {
+.left {
   color: white;
+  font-size: 20pt;
+  width: 400px;
+  float: left;
+  background: purple;
+  font-family: 'Open Sans', Sans-Serif;
 }
-
-/* WHITE SECTION */
-/* AUTHOR DATE */
-/* PARAGRAPH 1 */
-/* RADICAL */
-/* PARAGRAPH 2 */
-/* ACTION */
-
-.container4 {
-	width: 500px;
-	margin-right: auto;
-	background: gray;
-	font-family: 'Great Vibes', cursive;
-}
-
 
 /* SIDEBAR */
-.sidebar {
-	width: 500px;
-	margin-right: auto;
-	background: gray;
-	font-family: 'Great Vibes', cursive;
-}
 /* SIDEBAR CIRCLE & TEXT */
 /* SIDEBAR IMAGE */
 /* SIDEBAR TEXTS */
+.sidebar {
+  color: white;
+  font-size: 20pt;
+  width: 400px;
+  float: right;
+  background: orange;
+  font-family: 'Open Sans', Sans-Serif;
+}
+
 /* LINE */
 /* POPULAR SECTION */
-.container5 {
-	width: 500px;
-	margin-right: auto;
-	background: gray;
-	font-family: 'Great Vibes', cursive;
-}
 /* POPULAR TEXT */
 /* POPULAR IMAGES */
-/* FOOTER */
-.container6 {
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	background: yellow;
+.popular {
+  height: 330px;
+  width: 100%;
+  border-top: 10px solid;
+  border-color: red;
+  margin-left: 0px;
+  padding-top: .5px;
 }
-/* TIY LOGO */
-.container7 {
-	width: 500px;
-	margin-right: auto;
-	background: gray;
-	font-family: 'Great Vibes', cursive;
-}
-/* FOOTER NAV */
 
+.box {
+  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-1.jpg);
+  width: 20px;
+  height: 10px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+.popular2 {
+  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-2.jpg);
+  width: 20px;
+  height: 10px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 295px;
+}
+.popular3 {
+  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-3.jpg);
+  width: 20px;
+  height: 10px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 295px;
+}
+.popular4 {
+  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-4.jpg);
+  width: 20px;
+  height: 10px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 295px;
+}
+
+/* FOOTER NAV */
 .footer {
   background: #083452;
   width: 100%;
   height: 80px;
   color: white;
+  padding: 30px;
 }
 
 .footer img {
@@ -136,38 +138,6 @@ a {
   margin-top: 14px;
 }
 
-=======
-/* FOOTER NAV */
-
-.footer {
-  background: #083452;
-  width: 100%;
-  height: 80px;
-  color: white;
-}
-
-.footer img {
-  float: left;
-  padding: 10px;
-}
-
-.footer #tiy {
-  float: left;
-  display: inline;
-}
-
-.footer #copy {
-  float: left;
-  margin-left: 10px;
-}
-
-.footer #items {
-  float: right;
-  padding-right: 30px;
-  margin-top: 14px;
-}
-
->>>>>>> f801a19af235b907420a5d7281b25400a574732b
 .not-active {
   text-decoration: none;
   pointer-events: none;
