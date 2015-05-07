@@ -30,22 +30,8 @@ h1 {
 	color: white;
 	font-size: 80pt;
 }
-/* HEADLINE */
-.container2 {
-	width: 500px;
-	margin-left: auto;
-	background: orange;
-	font-family: 'Open Sans', Sans-Serif;
-}
 
 /* NAV */
-.container3 {
-	width: 500px;
-	height: 30px;
-	margin-right: auto;
-	background: purple;
-	font-family: 'Open Sans', Sans-Serif;
-}
 nav {
   display: right;
   text-align: right;
@@ -66,45 +52,73 @@ a {
 .container4 {
 	width: 500px;
 	margin-right: auto;
+	margin-left: auto;
 	background: gray;
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Great Vibes'
 }
 
 
+/* HEADLINE */
+.middle {
+  height: 200px;
+  width: 100%;
+}
+
+.left {
+  color: white;
+  font-size: 20pt;
+  width: 400px;
+  float: left;
+  background: purple;
+  font-family: 'Open Sans', Sans-Serif;
+}
 /* SIDEBAR */
 .sidebar {
-	width: 500px;
-	margin-right: auto;
-	background: gray;
-	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	color: white;
+	font-size: 20pt;
+	width: 400px;
+	float: right;
+	background: orange;
+	font-family: 'Open Sans', Sans-Serif;
 }
+
 /* SIDEBAR CIRCLE & TEXT */
 /* SIDEBAR IMAGE */
 /* SIDEBAR TEXTS */
 /* LINE */
 /* POPULAR SECTION */
-.container5 {
-	width: 500px;
-	margin-right: auto;
-	background: gray;
-	font-family: 'Great Vibes', cursive;
-}
 /* POPULAR TEXT */
 /* POPULAR IMAGES */
+.container {
+  height: 330px;
+  width: 100%;
+}
+.box {
+  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-1.jpg);
+  width: 20px;
+  height: 10px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+.popular2 {
+  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-2.jpg);
+  margin-right: 10px;
+  margin-left: 295px;
+}
+.popular3 {
+  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-3.jpg);
+  margin-right: 10px;
+  margin-left: 295px;
+}
+.popular4 {
+  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/article-image-4.jpg);
+  margin-right: 10px;
+  margin-left: 295px;
+}
+
 /* FOOTER */
-.container6 {
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
-	background: yellow;
-}
-/* TIY LOGO */
-.container7 {
-	width: 500px;
-	margin-right: auto;
-	background: gray;
-	font-family: 'Great Vibes', cursive;
-}
 /* FOOTER NAV */
 
 .footer {
