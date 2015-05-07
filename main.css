@@ -36,42 +36,32 @@ h1 {
 }
 
 
-/* MIDDLE */
-.middle {
-  background: #ccc;
-  height: 200px;
-  width: 100%;
-}
 
-.left {
-  color: white;
-  font-size: 20pt;
-  width: 400px;
-  float: left;
-  background: purple;
-  font-family: 'Open Sans', Sans-Serif;
-}
 
 /* SIDEBAR */
 /* SIDEBAR CIRCLE & TEXT */
 /* SIDEBAR IMAGE */
 /* SIDEBAR TEXTS */
 .sidebar {
-  color: white;
-  font-size: 20pt;
-  width: 400px;
+  width: 100%;
+}
+.clearFix {
+    clear: both;
+}
+.content {
+  float: left;
+  width: 100%;
+}
+
+article {
   float: right;
-  background: orange;
-  font-family: 'Open Sans', Sans-Serif;
 }
 
 /* LINE */
 /* POPULAR SECTION */
 /* POPULAR TEXT */
 /* POPULAR IMAGES */
-* {
-  border: solid 1px red;
-}
+
 
 .wrapper {
   background-color: white;
