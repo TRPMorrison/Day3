@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /* LOGO */
 /* HEADER */
@@ -135,6 +136,38 @@ a {
   margin-top: 14px;
 }
 
+=======
+/* FOOTER NAV */
+
+.footer {
+  background: #083452;
+  width: 100%;
+  height: 80px;
+  color: white;
+}
+
+.footer img {
+  float: left;
+  padding: 10px;
+}
+
+.footer #tiy {
+  float: left;
+  display: inline;
+}
+
+.footer #copy {
+  float: left;
+  margin-left: 10px;
+}
+
+.footer #items {
+  float: right;
+  padding-right: 30px;
+  margin-top: 14px;
+}
+
+>>>>>>> f801a19af235b907420a5d7281b25400a574732b
 .not-active {
   text-decoration: none;
   pointer-events: none;
