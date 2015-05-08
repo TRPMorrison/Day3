@@ -63,7 +63,14 @@ header {
 }
 
 
-
+h3 {
+  margin-left: 45px;
+  margin-top: 1016px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40pt;
+  font-weight: 400;
+  color: #2A74B4;
+}
 
 /* SIDEBAR */
 /* SIDEBAR CIRCLE & TEXT */
