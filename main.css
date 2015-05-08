@@ -4,9 +4,10 @@
 
 .container {
 	width: 1300px;
-	height: 2104px;
+	height: 2105px;
   margin-left: auto;
   margin-right: auto;
+  position: fixed;
 }
 
 /*.container:after {
@@ -14,13 +15,17 @@
   content: "";
   display: inline-block;
 }*/
-.tophead {
-  display: inline;
-}
+
+
 header {
   width: 1300px;
-  height: 500px;
+  height: 525px;
   background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/header.jpg);
+}
+.tophead {
+  display: inline;
+  overflow: none;
+  position: relative;
 }
 
 .headleft {
@@ -49,12 +54,13 @@ header {
   font-weight: 400;
 	color: white;
 }
-p {
+h6 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 12pt;
+  font-size: 14pt;
   color: #083452;
+  padding-left: 100px;
 }
 
 
@@ -64,7 +70,7 @@ p {
 /* SIDEBAR CIRCLE & TEXT */
 /* SIDEBAR IMAGE */
 /* SIDEBAR TEXTS */
-.sidebar {
+/*.sidebar {
   width: 100%;
 }
 .clearFix {
@@ -77,16 +83,19 @@ p {
 
 article {
   float: right;
-}
+}*/
 
 /* LINE */
 /* POPULAR SECTION */
 /* POPULAR TEXT */
 /* POPULAR IMAGES */
 
-
+/*
 .wrapper {
-  background-color: white;
+  background-color: green;
+  height: 575px;
+  position: relative;
+  bottom: 0;
 }
 
 /*.container:after {
@@ -95,7 +104,7 @@ article {
   color: white;
   display: block;
 }*/
-
+/*
 .box {
   width: 50px;
   height: 50px;
@@ -123,7 +132,7 @@ article {
   height: 50px;
   width: 50px;
 }
-
+*/
 footer {
   background: #083452;
   width: 100%;
@@ -138,7 +147,7 @@ h2 {
   color: rgb(8, 52, 82);
   text-align: center;
 }
-
+*/
 footer img {
   float: left;
   padding: 10px;
