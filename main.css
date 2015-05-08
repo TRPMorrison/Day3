@@ -1,36 +1,43 @@
 /* FOOTER NAV */
 
-.footer {
+footer {
   background: #083452;
-  width: 100%;
-  height: 80px;
-  color: white;
+  height: 100px;
+  margin-top: 2100px;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+  color: #5A788D
 }
 
-.footer img {
+footer img {
   float: left;
-  padding: 10px;
+  margin-left: 35px;
+  padding-top: 30px;
 }
 
-.footer #tiy {
+.tiylogo {
   float: left;
   display: inline;
+  margin-left: 35px;
 }
 
-.footer #copy {
+.copy {
   float: left;
   margin-left: 10px;
+  padding-top: 25px;
 }
 
-.footer #items {
+.items {
   float: right;
-  padding-right: 30px;
-  margin-top: 14px;
+  padding-right: 120px;
+  padding-top: 30px;
 }
 
 .not-active {
   text-decoration: none;
   pointer-events: none;
   cursor: default;
-  color: white;
+  color: #5A788D;
 }
