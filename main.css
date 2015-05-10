@@ -1,5 +1,5 @@
 * {
-  border : 1px solid red;
+  border: 1px solid red;
 }
 
 .container {
@@ -67,10 +67,10 @@ header {
 }
 */
 
-.center {
-  width: 60%;
+.center  {
+  width: 80%;
   display: inline;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 
@@ -78,36 +78,44 @@ header {
   width: 60%;
   display: inline-block;
   font-family: 'Oswald', sans-serif;
-  font-size: 70pt;
+  font-size: 45pt;
   font-weight: 400;
   color: #0B3754;
+  overflow: none;
+  margin-bottom: 0;
 }
 
 
 .details {
   height: 5%;
-  width: 30%;
-  margin-left: 200px;
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 0;
+
 }
+
 .details img {
   width: 3%;
-  height: 5%;
   float: left;
   position: absolute;
-  padding-right: 20%;
+  padding-right: 40em;
 }
 
 .details .a {
+  margin-top: 3em;
   float: right;
-  padding-right: 30px;
+  padding-right: 4em;
+  padding-left: 3em;
 }
 
 .details span {
-  padding-left: 70px;
-  padding-right: 20px;
+  margin-top: 3em;
+  padding-left: 3em;
+  padding-right: 1em;
 }
 
 .left section {
+  margin-top: 30px;
   float: left;
   width: 60%;
   padding-top: 30px;
@@ -115,30 +123,31 @@ header {
   display: inline;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 16pt;
-  color: #0B3754;
+  font-size: 11.5pt;
+  color: #5E686F;
   position: relative;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
-
-section h3 {
-  width: 60%;
-  margin-left: 20px;
-/*  margin-top: 1016px;*/
-  font-family: 'Oswald', sans-serif;
-  font-size: 30pt;
-  font-weight: 400;
+.left p {
+  font-size: 1.5em;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   color: #2A74B4;
+  margin-left: 100px;
+  float: left;
+  width: 40%;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.center .sidebar {
+/*.center .sidebar {
   width: 30%;
   float: right;
 }
-/*.clearFix {
+*//*.clearFix {
     clear: both;
-}*/
+}
 
 
 /*.content {
