@@ -70,10 +70,44 @@ header {
 .center {
   width: 60%;
   display: inline;
-  margin-left: 45px;
+  margin-left: 200px;
 }
 
-section {
+
+.center h1 {
+  width: 60%;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70pt;
+  font-weight: 400;
+  color: #0B3754;
+}
+
+
+.details {
+  height: 5%;
+  width: 30%;
+  margin-left: 200px;
+}
+.details img {
+  width: 3%;
+  height: 5%;
+  float: left;
+  position: absolute;
+  padding-right: 20%;
+}
+
+.details .a {
+  float: right;
+  padding-right: 30px;
+}
+
+.details span {
+  padding-left: 70px;
+  padding-right: 20px;
+}
+
+.left section {
   float: left;
   width: 60%;
   padding-top: 30px;
@@ -83,34 +117,19 @@ section {
   font-weight: 400;
   font-size: 16pt;
   color: #0B3754;
-
+  position: relative;
+  margin-left: 200px;
 }
 
-.center h3 {
+
+section h3 {
   width: 60%;
-  margin-left: 100px;
+  margin-left: 20px;
 /*  margin-top: 1016px;*/
   font-family: 'Oswald', sans-serif;
-  font-size: 40pt;
+  font-size: 30pt;
   font-weight: 400;
   color: #2A74B4;
-}
-
-.center .img {
-  /*width: 20%;
-  height: 20%;*/
-  display: inline-block;
-  background-size: 100px;
-}
-
-.center h1 {
-  margin-left: 200px;
-  width: 60%;
-  display: inline-block;
-  font-family: 'Oswald', sans-serif;
-  font-size: 70pt;
-  font-weight: 400;
-  color: #0B3754;
 }
 
 .center .sidebar {
