@@ -4,21 +4,25 @@
 
 .container {
 	width: 90%;
+  height: 100%;
   position: absolute;
 }
 
-/*.container:after {
+.container:after {
   clear: none;
   content: "";
   display: inline-block;
+}
+
+/*
+header {
+  height: 525px;
+  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20assets/header.jpg);
 }*/
 
 
-header {
-  height: 525px;
-  background-image: url(https://raw.githubusercontent.com/tiy-atl-js-q2-2015/Assignments/master/Assignment%2003%20*/assets/header.jpg);
-}
 
+/*
 .tophead {
   display: inline;
   overflow: none;
@@ -61,38 +65,74 @@ header {
   padding-top: none;
   padding-bottom: none;
 }
+*/
 
-
-h3 {
+.center {
+  width: 60%;
+  display: inline;
   margin-left: 45px;
-  margin-top: 1016px;
+}
+
+section {
+  float: left;
+  width: 60%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  color: #0B3754;
+
+}
+
+.center h3 {
+  width: 60%;
+  margin-left: 100px;
+/*  margin-top: 1016px;*/
   font-family: 'Oswald', sans-serif;
   font-size: 40pt;
   font-weight: 400;
   color: #2A74B4;
 }
 
-/* SIDEBAR */
-/* SIDEBAR CIRCLE & TEXT */
-/* SIDEBAR IMAGE */
-/* SIDEBAR TEXTS */
-/*.sidebar {
-  width: 100%;
-}
-.clearFix {
-    clear: both;
-}
-.content {
-  float: left;
-  width: 100%;
+.center .img {
+  /*width: 20%;
+  height: 20%;*/
+  display: inline-block;
+  background-size: 100px;
 }
 
-article {
+.center h1 {
+  margin-left: 200px;
+  width: 60%;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70pt;
+  font-weight: 400;
+  color: #0B3754;
+}
+
+.center .sidebar {
+  width: 30%;
+  float: right;
+}
+/*.clearFix {
+    clear: both;
+}*/
+
+
+/*.content {
+  float: left;
+  width: 100%;
+}*/
+
+/*.sidebar article {
   float: right;
 }*/
 
-/* POPULAR SECTION */
-.wrapper {
+/* POPULAR SECTION
+/*.wrapper {
   margin-top: 800em;
   width: 100%;
   float: left;
@@ -165,3 +205,4 @@ footer .img {
   cursor: default;
   color: #5A788D;
 }
+*/
