@@ -141,23 +141,51 @@ header {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*.center .sidebar {
+.icons {
+  width: 75%;
+  height: 5%;
+  float: left;
+  background: #106DB3;
+  display: inline;
+  color: white;
+}
+.icons section {
+  /*width: 90%;*/
+  height: 20%;
+  clear: both;
+  display: inline;
+}
+.icons .img {
+  width: 10%;
+  height: 10%;
+  clear: both;
+  display: inline;
+  background: gray;
+}
+.icons span {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 10pt;
+   padding-right: 5%;
+   padding-left: 3%;
+   color: white;
+}
+.center .sidebar {
   width: 30%;
   float: right;
 }
-*//*.clearFix {
+.clearFix {
     clear: both;
 }
 
 
-/*.content {
+.content {
   float: left;
   width: 100%;
-}*/
+}
 
-/*.sidebar article {
+.sidebar article {
   float: right;
-}*/
+}
 
 /* POPULAR SECTION
 /*.wrapper {
@@ -233,4 +261,4 @@ footer .img {
   cursor: default;
   color: #5A788D;
 }
-*/
+
