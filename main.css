@@ -239,7 +239,7 @@ h6 span {
 /* POPULAR SECTION*/
 
 .wrapper {
-  margin-top: 20%;
+  margin-top: 18%;
   border-top: solid 1px #E2E8EB;
   width: 100%;
   float: left;
@@ -249,12 +249,13 @@ h6 span {
 }
 
 .wrapper h2 {
-    border-top: solid .3px #E2E8EB;
+  border-top: solid .3px #E2E8EB;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 75pt;
   font-weight: 400;
   color: #0B3754;
+  margin-top: 5%;
 }
 
 .wrapper:after {
