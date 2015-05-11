@@ -67,10 +67,19 @@ header {
 }
 */
 
+
+.clearfix {
+  overflow: auto;
+}
+.clearfix:after {
+  clear: both;
+}
 .center  {
   width: 80%;
   display: inline;
   margin-left: 100px;
+  position: absolute;
+  float: left;
 }
 
 
@@ -169,9 +178,11 @@ header {
    padding-left: 3%;
    color: white;
 }
-.center .sidebar {
+
+.sidebar {
   width: 30%;
   float: right;
+  position: relative;
 }
 .clearFix {
     clear: both;
